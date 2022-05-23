@@ -1,1 +1,38 @@
-// TODO
+
+.container {
+   padding: 80px 370px;
+   width: 100%;
+   height: 100vh;
+   background-color: #282C34;
+}
+
+.container-post {
+  margin-top: 64px;
+  h3 {
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: var(--white);
+  }
+  p {
+    margin-bottom: 1.5rem;
+    color: var(--gray-400);
+  }
+  span, time {
+    color: var(--gray-500);
+
+  }
+}
+.container-event-info {
+  display: flex;
+  align-items: center;
+}
+
+.eventInfo {
+  margin-right: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  & > svg {
+    margin-right: 8px;
+  }
+}

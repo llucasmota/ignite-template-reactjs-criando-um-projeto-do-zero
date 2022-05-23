@@ -2,6 +2,31 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #282C34;
+  color: #F8F8F8;
+
+}
+:root {
+  --gray-300: #BBBBBB;
+  --gray-400: #D7D7D7;
+  --gray-500: #BBBBBB;
+  --white: #F8F8F8;
+}
+body,
+input,
+textarea,
+select,
+button {
+  font: 400 1rem 'Inter', sans-serif;
 }
 
-// TODO
+h3 {
+  font-size: 1.75rem;
+}
+p {
+  font-size: 1.125rem;
+}
+
+span {
+  font-size: 0.875rem;
+}
